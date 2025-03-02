@@ -1,2 +1,2 @@
 # InterlopingTools
-Many FanMade tools for interloping
+Many (fan made) tools for interloping
