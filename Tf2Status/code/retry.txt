@@ -1,4 +1,0 @@
-playercount=7/20
-map=NOT FOUND
-password=True
-time left=0:25:46
