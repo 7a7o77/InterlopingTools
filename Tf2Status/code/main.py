@@ -61,7 +61,7 @@ def GetWstr(TimeOut: int = 20, Address: tuple = ("79.127.217.197", 22912), retri
             Ttime = f"time left={str(datetime.timedelta(seconds=1800 - math.floor(duration)))}"
         else:
             now = datetime.datetime.now()
-            next_half_hour = (now + datetime.timedelta(minutes=30 - now.minute % 30)).replace(second=0, microsecond=0)
+            next_half_hour = (now + datetime.timedelta(minutes=45 - now.minute % 30)).replace(second=0, microsecond=0)
             Ttime = f"time left={str(next_half_hour - now.replace(microsecond=0))}"
         wstr = f"playercount={str(playercount)}/{str(maxplayers)}\nmap={info.map_name}\npassword={str(password)}\n{Ttime}"
         retries = 0
